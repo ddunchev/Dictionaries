@@ -15,30 +15,40 @@ namespace OddOccurrences
             Console.SetIn(new System.IO.StreamReader(@"D:\input.txt"));
 #endif
 
+            var input = Console.ReadLine();
+            var myDict = new Dictionary<string, int>();
 
-            Dictionary<string, int> myListOfPeoples = new Dictionary<string, int>();
-            var input = int.Parse(Console.ReadLine());
+            var words = input.Split(' ').ToList();
 
-            for (int i = 0; i < input; i++)
+            while (words.Count > 0)
             {
-                Console.WriteLine("Enter your name and age");
-                myListOfPeoples.Add(Console.ReadLine(), int.Parse(Console.ReadLine()));
+                int count = 0;
+                string singleWord = words[0].ToLower();
+
+                for (int i = 0; i < words.Count; i++)
+                {
+                    if (words[i].ToLower() == singleWord)
+                    {
+                        count++;
+                        words.RemoveAt(i);
+                        i--;
+                    }
+                }
+                myDict.Add(singleWord, count);
             }
 
-            foreach (var item in myListOfPeoples)
+            var myList = new List<string>();
+
+            foreach (KeyValuePair<string, int> item in myDict)
             {
-                Console.WriteLine(item.Key);
+                if (item.Value % 2 != 0)
+                {
+                    myList.Add(item.Key);
+
+                }
             }
 
-            foreach ( item in myListOfPeoples)
-            {
-                Console.WriteLine(item.Key);
-            }
-
-            if (myListOfPeoples.TryGetValue("Dancho", out int test))
-            {
-                Console.WriteLine($"The age of {myListOfPeoples.ElementAt(0)} are {test}");
-            }
+            Console.WriteLine(String.Join(", ", myList));
         }
     }
 }
