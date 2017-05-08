@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountRealNumbers", "CountRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterRepetition", "LetterRepetition\LetterRepetition.csproj", "{C7497663-C6D3-41A5-9325-C9DA214EC1D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{271529BC-2E7C-4513-B790-3677199A2A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example2", "Example2\Example2.csproj", "{FFC8493C-4F03-4A06-BF7F-9D86582CC46A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{C7497663-C6D3-41A5-9325-C9DA214EC1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7497663-C6D3-41A5-9325-C9DA214EC1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7497663-C6D3-41A5-9325-C9DA214EC1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271529BC-2E7C-4513-B790-3677199A2A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271529BC-2E7C-4513-B790-3677199A2A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271529BC-2E7C-4513-B790-3677199A2A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271529BC-2E7C-4513-B790-3677199A2A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC8493C-4F03-4A06-BF7F-9D86582CC46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC8493C-4F03-4A06-BF7F-9D86582CC46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC8493C-4F03-4A06-BF7F-9D86582CC46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC8493C-4F03-4A06-BF7F-9D86582CC46A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
