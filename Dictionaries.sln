@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOccurrences", "OddOccurr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOccurrences2", "OddOccurrences2\OddOccurrences2.csproj", "{BE2475D5-CA95-48CE-84CA-63949CA2F971}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedDictionaryExample", "SortedDictionaryExample\SortedDictionaryExample.csproj", "{6A31ECAD-5A17-4CD4-9155-18F9127C508A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BE2475D5-CA95-48CE-84CA-63949CA2F971}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE2475D5-CA95-48CE-84CA-63949CA2F971}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE2475D5-CA95-48CE-84CA-63949CA2F971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A31ECAD-5A17-4CD4-9155-18F9127C508A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A31ECAD-5A17-4CD4-9155-18F9127C508A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A31ECAD-5A17-4CD4-9155-18F9127C508A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A31ECAD-5A17-4CD4-9155-18F9127C508A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
